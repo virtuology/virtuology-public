@@ -1,1 +1,0 @@
-# virtuology-public
