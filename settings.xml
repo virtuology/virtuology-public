@@ -1,0 +1,14 @@
+<settings>
+        <servers>
+                <server>
+                        <id>telio-release</id>
+                        <username>${env.MAVEN_TELIO_KEY}</username>
+                        <password>${env.MAVEN_TELIO_SECRET}</password>
+                </server>
+                <server>
+                        <id>telio-snapshot</id>
+                        <username>${env.MAVEN_TELIO_KEY}</username>
+                        <password>${env.MAVEN_TELIO_SECRET}</password>
+                </server>
+         </servers>
+</settings>
